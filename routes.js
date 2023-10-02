@@ -48,13 +48,13 @@ const routes = [
       // return 'Halaman tidak ditemukan'
     },
   },
-  {
-    method: "POST",
-    path: "/user",
-    hadnl: (request, h) => {
-      return h.response("created").code(201);
-    },
-  },
+  // {
+  //   method: "POST",
+  //   path: "/user",
+  //   hadnl: (request, h) => {
+  //     return h.response("created").code(201);
+  //   },
+  // },
 ];
 
 module.exports = routes;
@@ -65,7 +65,7 @@ module.exports = routes;
 //     response.header('X-Custom', 'some-value');
 //     return response;
 // };
- 
+
 // // Chained notation
 // const handler = (request, h) => {
 //     return h.response('success')
